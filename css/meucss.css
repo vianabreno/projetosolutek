@@ -1,0 +1,403 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --cor1: #990000;
+    --cor2: #f2a73d;
+    --cor3: #400904;
+    --cor4: #590E07;
+    --cor5: #8C0303;
+    --cor6: #F2F2F2;
+    --cor7: #D9D9D9;
+
+    --font01: 'Roboto', sans-serif;
+    --font02: 'Merriweather', serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+header#cabeca01{
+    width: 98%;
+    position: relative;
+    margin: auto;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.199);
+}
+
+header .txtcabeca{
+    font-size: 0.8em;
+    text-decoration: none;
+    font-family: var(--font01);
+    color: var(--cor3);
+    padding-left: 30px;
+}
+
+.txtcabeca:hover{
+    font-weight: bolder;
+}
+
+#solutek:hover{
+    color: var(--cor5);
+    font-weight: bolder;
+}
+
+#tekss:hover{
+    color: green;
+    font-weight: bolder;
+}
+
+#teks:hover{
+    color: var(--cor2);
+    font-weight: bolder;
+}
+
+.redes{
+    text-decoration: none;
+    box-sizing: content-box;
+}
+
+#redes01{
+    width: 20px;
+    margin-left: 38%;
+}
+
+#redes02{
+    width: 20px;
+    margin-left: 18px;
+}
+
+#redes03{
+    width: 20px;
+    margin-left: 18px;
+}
+
+#redes04{
+    width: 20px;
+    margin-left: 18px;
+}
+
+main{
+    background-color:;
+
+}
+
+section#banner01{
+    height: 350px;
+}
+
+main > header#cabeca02{
+    margin: auto;
+    width: 98%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+main > header > nav#navcabeca02{
+    margin: auto;
+    font-family: var(--font01);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    font-size: 1.2em;
+    font-weight:bolder;
+}
+
+#maincabeca2 nav a{
+    color:var(--cor5);
+}
+
+#maincabeca2 nav a:hover{
+    color: var(--cor2);
+    font-weight: lighter;
+    transition: 0.3s;
+}
+
+
+#logomarca{
+    width: 150px;
+    height: 50px;
+    margin-left: 45%;
+}
+
+#logo{
+    width: 100%;
+}
+
+main > section#banners{
+    background-color: black;
+    margin: 0 auto;
+    width: 98%;
+    height: 410px;
+    overflow: hidden;
+    /*border: solid 2px #f2a73d;
+     position: absolute;
+    top: 6%;
+    left: 0.8%;
+    z-index: 1;*/
+}
+
+main > section > div#banner{
+    width: 400%;
+    right: 410px;
+    display: flex;
+}
+
+div#banner input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.imslide{
+    width: 100vw;
+    height: 410px;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -26%;
+    transition: 2s;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -55%;
+    transition: 2s;
+}
+
+main > section > h1#txtcompras{
+    font-family: var(--font01);
+    font-size: 2em;
+    text-align: left;
+    color: var(--cor5);
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+}
+
+main section#compras{
+    margin: auto;
+    text-align: center;
+    max-width: 98%;
+    min-height: 400px;
+}
+
+.iconcompre{
+    margin: auto;
+    width: 140px;
+    height: 40px;
+    border: solid rgba(0, 0, 0, 0.096) 2.5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
+    border-radius: 6px;
+    
+    
+}
+
+.iconecarrinho{
+    display: inline;
+    width: 22%;
+    position: relative;
+    left: 1px;
+    top: 4px
+}
+
+.bottoncompre{
+    display: inline;
+    font-family: var(--font01);
+    font-weight: bolder;
+    color: var(--cor5);
+    position: relative;
+    left: 2%;
+    top: 13%;
+}
+
+.iconcompre:hover{
+    background-color: var(--cor7);
+    border: var(--cor2);
+    transition: 0.5s;
+    transform: translate(-5px, -5px);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+main > section > h1#txcertificadoideal{
+    font-family: var(--font01);
+    font-size: 2em;
+    text-align: left;
+    color: var(--cor5);
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+}
+
+main > section#idealcertificado{
+    margin: auto;
+    text-align: center;
+    width: 98%;
+}
+
+.card-title{
+    font-family: var(--font01);
+    color: var(--cor4);
+}
+
+.card-text{
+    font-family: var(--font02);
+    font-weight: lighter;
+}
+
+.col:hover{
+    border: solid white 4px;
+    border-radius: 5px;
+}
+
+main > section > div#pj{
+    width: 200px;
+    height: 230px;
+    margin-right: 60px;
+    border: solid 1px rgba(0, 0, 0, 0.185);
+    display: inline-block ;
+}
+
+main > section > div#pf{
+    width: 200px;
+    height: 230px;
+    margin-right: 60px;
+    border: solid 1px rgba(0, 0, 0, 0.185);
+    display: inline-block ;
+}
+
+main > section > div#prof{
+    width: 200px;
+    height: 230px;
+    margin-right: 60px;
+    border: solid 1px rgba(0, 0, 0, 0.185);
+    display: inline-block ;
+}
+
+main > section > div#ecom{
+    width: 200px;
+    height: 230px;
+    border: solid 1px rgba(0, 0, 0, 0.185);
+    display: inline-block ;
+}
+
+main > section > h1#txtconhecacertificado{
+    font-family: var(--font01);
+    max-width: 98%;
+    font-size: 2em;
+    text-align: left;
+    color: var(--cor5);
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+}
+
+main > section > div #nav_tabs{
+    margin: auto;
+}
+
+#nav_tabs #abas{
+    font-family: var(--font01);
+    font-weight: bolder;
+    list-style: none;
+
+}
+
+.abass{
+    float: left;
+}
+
+#nav_tabs ul label{
+    width: 200px;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    background-color: var(--cor7);
+    display: block;
+    color: var(--cor5);
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.26);
+}
+
+
+#tab1:checked ~ label{
+    color: white;
+    background-color: var(--cor3);
+}
+#tab2:checked ~ label{
+    color: white;
+    background-color:var(--cor3);
+}
+
+.rd_tabs{
+    display: none;
+}
+
+.content{
+    width: 98%;
+    display: none;
+    position: absolute;
+    left: 2.3%;
+    margin-bottom: 50px;
+}
+
+.rd_tabs:checked ~ .content{
+    display: block;
+}
+
+.list-abas{
+    width: 98%;
+    columns: 2;
+}
+
+.h2-abas{
+    background-color: #f2a73d;
+    font-family: var(--font01);
+    text-align: center;
+    color: var(--cor5);
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.418);
+}
+
+.ifreme-abas{
+    position: relative;
+    max-width: 98%;
+    height: 500px;
+    background-color: #400904;
+
+}
+
+.video-abas{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.div-abas{
+    width: 98%;
+    border: solid 1px #f2a73d;
+}
+
+footer{
+    width: 98%;
+}

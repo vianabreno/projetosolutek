@@ -1,0 +1,19 @@
+ROBOTO:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+font-family: 'Roboto', sans-serif;
+
+MARRIWEATHER:
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+font-family: 'Merriweather', serif;
+
+
+CORES: (Paleta I)
+#400904
+#590E07
+#8C0303
+#F2F2F2
+#D9D9D9
+
+CORES: (Paleta II)
+#990000
+#f2a73d
