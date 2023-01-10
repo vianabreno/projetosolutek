@@ -62,31 +62,6 @@ header .txtcabeca{
     font-weight: bolder;
 }
 
-.redes{
-    text-decoration: none;
-    box-sizing: content-box;
-}
-
-#redes01{
-    width: 20px;
-    margin-left: 38%;
-}
-
-#redes02{
-    width: 20px;
-    margin-left: 18px;
-}
-
-#redes03{
-    width: 20px;
-    margin-left: 18px;
-}
-
-#redes04{
-    width: 20px;
-    margin-left: 18px;
-}
-
 main{
     background-color:;
 
@@ -326,7 +301,7 @@ main > section > div #nav_tabs{
 }
 
 #nav_tabs ul label{
-    width: 200px;
+    width: 120px;
     margin-left: 0%;
     margin-bottom: 5%;
     background-color: var(--cor7);
@@ -366,14 +341,15 @@ main > section > div #nav_tabs{
 .list-abas{
     width: 98%;
     columns: 2;
+    line-height: 2.5em;
 }
 
 .h2-abas{
-    background-color: #f2a73d;
     font-family: var(--font01);
     text-align: center;
     color: var(--cor5);
     margin-bottom: 15px;
+    margin-top: 5px;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.418);
 }
 
@@ -395,9 +371,52 @@ main > section > div #nav_tabs{
 
 .div-abas{
     width: 98%;
-    border: solid 1px #f2a73d;
+    
 }
 
 footer{
-    width: 98%;
+    margin: auto;
+    border-top: solid 1px rgba(0, 0, 0, 0.151);
+    position: absolute;
+    top: 385%;
+    width: 100%;
+    height: 100px;
+}
+
+#text-footer{
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--font01);
+    font-size: 0.9em;
+}
+
+#div-redes{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.redes{
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+#redes01{
+    width: 30px;
+}
+
+#redes02{
+    width: 30px;
+    margin-left: 6px;
+}
+
+#redes03{
+    width: 30px;
+    margin-left: 6px;
+}
+
+#redes04{
+    width: 30px;
+    margin-left: 6px;
 }
