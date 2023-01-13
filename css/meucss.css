@@ -47,9 +47,13 @@ header .txtcabeca{
     font-weight: bolder;
 }
 
-#solutek:hover{
+#solutek{
     color: var(--cor5);
     font-weight: bolder;
+}
+
+#solutek:hover{
+    font-weight: lighter;
 }
 
 #tekss:hover{
