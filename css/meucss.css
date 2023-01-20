@@ -98,7 +98,6 @@ main > header > nav#navcabeca02{
 
 #maincabeca2 nav a:hover{
     color: var(--cor2);
-    font-weight: lighter;
     transition: 0.3s;
 }
 
@@ -266,7 +265,7 @@ main > section > div#ecom{
 #ideal{
     width: 98%;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
 }
 
 main > section > h1#txtconhecacertificado{
@@ -297,6 +296,24 @@ main > section > h1#txtconhecacertificado{
 #tex-ideall{
     font-family: var(--font02);
     line-height: 2em;
+}
+
+#historia{
+    width: 98%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#card-his0{
+    border: white;
+}
+
+#card-his1{
+    border: white;
+}
+
+#card-his2{
+    border: white;
 }
 
 footer{
