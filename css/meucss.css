@@ -34,42 +34,182 @@ header#cabeca01{
     box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.199);
     background-color:#d9d9d93f;
 }
+@media screen and (min-width: 1181px){
+    #resolution1{
+        display: none;
+    }
+    header .txtcabeca{
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: var(--font01);
+        color: var(--cor3);
+        padding-left: 30px;
+    }
 
-header .txtcabeca{
-    font-size: 0.8em;
-    text-decoration: none;
-    font-family: var(--font01);
-    color: var(--cor3);
-    padding-left: 30px;
+    .txtcabeca:hover{
+        font-weight: bolder;
+    }
+
+    #solutek{
+        color: var(--cor5);
+        font-weight: bolder;
+    }
+
+    #solutek:hover{
+        color: black;
+    }
+
+    #tekss:hover{
+        color: green;
+        font-weight: bolder;
+    }
+
+    #teks:hover{
+        color: var(--cor2);
+        font-weight: bolder;
+    }
+
+    #log{
+        margin-left: 40%;
+        width: 100px;
+        height: 35px;
+    }
+
 }
 
-.txtcabeca:hover{
-    font-weight: bolder;
+@media screen and (max-width: 1183px){
+    #resolution1{
+        display: none;
+    }
+    header .txtcabeca{
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: var(--font01);
+        color: var(--cor3);
+        padding-left: 30px;
+    }
+
+    .txtcabeca:hover{
+        font-weight: bolder;
+    }
+
+    #solutek{
+        color: var(--cor5);
+        font-weight: bolder;
+    }
+
+    #solutek:hover{
+        color: black;
+    }
+
+    #tekss:hover{
+        color: green;
+        font-weight: bolder;
+    }
+
+    #teks:hover{
+        color: var(--cor2);
+        font-weight: bolder;
+    }
+
+    #log{
+        margin-left: 20%;
+        width: 100px;
+        height: 35px;
+    }
+
 }
 
-#solutek{
-    color: var(--cor5);
-    font-weight: bolder;
+@media screen and (max-width: 910px){
+
+    #navcabeca01{
+        display: none;
+    }
+
+    header .txtcabeca{
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: var(--font01);
+        color: var(--cor3);
+        padding-left: 30px;
+    }
+
+    .txtcabeca:hover{
+        font-weight: bolder;
+    }
+
+    #solutek{
+        color: var(--cor5);
+        font-weight: bolder;
+    }
+
+    #solutek:hover{
+        color: black;
+    }
+
+    #tekss:hover{
+        color: green;
+        font-weight: bolder;
+    }
+
+    #teks:hover{
+        color: var(--cor2);
+        font-weight: bolder;
+    }
+
+    #log{
+        display: none;
+        margin-left: 20%;
+        width: 100px;
+        height: 35px;
+    }
+
 }
 
-#solutek:hover{
-    color: black;
-}
+@media screen and (min-width: 910px){
 
-#tekss:hover{
-    color: green;
-    font-weight: bolder;
-}
+    #navcabeca01{
+        display: none;
+    }
 
-#teks:hover{
-    color: var(--cor2);
-    font-weight: bolder;
-}
+    header .txtcabeca{
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: var(--font01);
+        color: var(--cor3);
+        padding-left: 30px;
+    }
 
-#log{
-    margin-left: 40%;
-    width: 100px;
-    height: 35px;
+    .txtcabeca:hover{
+        font-weight: bolder;
+    }
+
+    #solutek{
+        color: var(--cor5);
+        font-weight: bolder;
+    }
+
+    #solutek:hover{
+        color: black;
+    }
+
+    #tekss:hover{
+        color: green;
+        font-weight: bolder;
+    }
+
+    #teks:hover{
+        color: var(--cor2);
+        font-weight: bolder;
+    }
+
+    #log{
+        display: none;
+        margin-left: 20%;
+        width: 100px;
+        height: 35px;
+    }
+
 }
 
 section#banner01{
