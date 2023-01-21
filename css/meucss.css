@@ -347,16 +347,12 @@ header#cabeca01{
         font-weight: bolder;
     }
 
-    #solutek:hover{
-        color: black;
-    }
-
-    #tekss:hover{
+    #tekss{
         color: green;
         font-weight: bolder;
     }
 
-    #teks:hover{
+    #teks{
         color: var(--cor2);
         font-weight: bolder;
     }
@@ -381,7 +377,7 @@ header#cabeca01{
         width: 42%;
         
         display: inline-block;
-        margin-left: 33%;
+        margin-left: 37%;
     }
 }
 
