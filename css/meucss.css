@@ -142,6 +142,40 @@ html,body{
         transition: 2s;
     }
 
+    main > section > h1#txtcompras{
+        font-family: var(--font01);
+        font-size: 2em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txcertificadoideal{
+        font-family: var(--font01);
+        font-size: 2em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txtconhecacertificado{
+        font-family: var(--font01);
+        max-width: 98%;
+        font-size: 2em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
 }
 
 @media (max-width: 1231px){
@@ -326,6 +360,40 @@ html,body{
         transition: 2s;
     }
 
+    main > section > h1#txtcompras{
+        font-family: var(--font01);
+        font-size: 1.7em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txcertificadoideal{
+        font-family: var(--font01);
+        font-size: 1.7em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txtconhecacertificado{
+        font-family: var(--font01);
+        max-width: 98%;
+        font-size: 1.7em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
 }
 
 @media (max-width: 810px){
@@ -507,6 +575,40 @@ html,body{
         transition: 2s;
     }
 
+    main > section > h1#txtcompras{
+        font-family: var(--font01);
+        font-size: 1.5em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txcertificadoideal{
+        font-family: var(--font01);
+        font-size: 1.5em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txtconhecacertificado{
+        font-family: var(--font01);
+        max-width: 98%;
+        font-size: 1.5em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
 
 }
 
@@ -656,11 +758,42 @@ html,body{
         transition: 2s;
     }
 
+    main > section > h1#txtcompras{
+        font-family: var(--font01);
+        font-size: 1.3em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txcertificadoideal{
+        font-family: var(--font01);
+        font-size: 1.3em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
+    main > section > h1#txtconhecacertificado{
+        font-family: var(--font01);
+        max-width: 98%;
+        font-size: 1.3em;
+        text-align: left;
+        color: var(--cor5);
+        margin-left: 15px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    }
+
 }
 
-section#banner01{
-    height: 350px;
-}
 
 main > header > nav#navcabeca02{
     margin: auto;
@@ -678,17 +811,6 @@ main > header > nav#navcabeca02{
 #maincabeca2 nav a:hover{
     color: var(--cor2);
     transition: 0.3s;
-}
-
-main > section > h1#txtcompras{
-    font-family: var(--font01);
-    font-size: 2em;
-    text-align: left;
-    color: var(--cor5);
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
 }
 
 main section#compras{
@@ -733,17 +855,6 @@ main section#compras{
     transform: translate(-5px, -5px);
     transition: transform 0.4s;
     cursor: pointer;
-}
-
-main > section > h1#txcertificadoideal{
-    font-family: var(--font01);
-    font-size: 2em;
-    text-align: left;
-    color: var(--cor5);
-    margin-left: 15px;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
 }
 
 main > section#idealcertificado{
@@ -804,18 +915,6 @@ main > section > div#ecom{
     margin-bottom: 5%;
 }
 
-main > section > h1#txtconhecacertificado{
-    font-family: var(--font01);
-    max-width: 98%;
-    font-size: 2em;
-    text-align: left;
-    color: var(--cor5);
-    margin-left: 15px;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
-}
-
 #card-ideal{
     border: white;
 }
@@ -841,14 +940,17 @@ main > section > h1#txtconhecacertificado{
 }
 
 #card-his0{
+    margin: auto;
     border: white;
 }
 
 #card-his1{
+    margin: auto;
     border: white;
 }
 
 #card-his2{
+    margin: auto;
     border: white;
 }
 
