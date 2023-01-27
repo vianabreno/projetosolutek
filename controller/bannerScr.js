@@ -13,3 +13,12 @@ function nextImagem(){
 
     document.getElementById("radio"+contador).checked = true;
 }
+
+let menu = window.document.querySelector('#div-menu')
+let menuu = window.document.querySelector('#menuu')
+
+menuu.addEventListener('click', clicar)
+function clicar(){
+    menu.style.display = 'block'
+
+}

@@ -133,12 +133,12 @@ html,body{
     }
     
     #radio2:checked ~ .first{
-        margin-left: -102%;
+        margin-left: -103.5%;
         transition: 2s;
     }
     
     #radio3:checked ~ .first{
-        margin-left: -203%;
+        margin-left: -204%;
         transition: 2s;
     }
 
@@ -704,18 +704,26 @@ html,body{
     }
 
     #div-menu{
-        width: 160px;
-        height: 180px;
+        width: 170px;
+        height: 210px;
         position: absolute;
         z-index: 1;
         display: inline-block;
-        background-color:rgba(255, 255, 255, 0.678);
+        background-color:rgba(255, 255, 255, 0.747);
         font-family: var(--font01);
-        font-size: 0.9em;
-        margin-top: 1.2%;
-        margin-left: 3%;
+        font-size: 1.1em;
+        margin-top: 11%;
+        margin-left: -40%;
         border-radius: 5%;
         box-shadow: rgba(0, 0, 0, 0.082) 1px 1px 1px 1px;
+    }
+
+    #menuu{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-left: 35%;
+        background-color: #400904;
     }
 
     .a-menu-resolu{
@@ -726,15 +734,13 @@ html,body{
         font-family: var(--font01);
         font-weight: bold ;
         margin-right: 3%;
+        margin-top: 3%;
         text-align: right;
         text-shadow: rgba(0, 0, 0, 0.247) 1px 1px 1px;
     }
 
     #img-menu{
-        width: 25%;
-        margin-left: 75%;
-        margin-bottom: 15%;
-
+        width: 100%;
     }
 
     #nav-resolu{
