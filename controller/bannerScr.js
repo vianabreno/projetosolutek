@@ -14,11 +14,16 @@ function nextImagem(){
     document.getElementById("radio"+contador).checked = true;
 }
 
-let menu = window.document.querySelector('#div-menu')
-let menuu = window.document.querySelector('#menuu')
+let menu = window.document.querySelector('#menuu')
+let menuu = window.document.querySelector('#div-menu')
 
-menuu.addEventListener('click', clicar)
-function clicar(){
-    menu.style.display = 'block'
 
+menu.addEventListener('click', entrar)
+function entrar(){
+    menuu.style.display = 'block'
+}
+
+menuu.addEventListener('click', sair)
+function sair(){
+    menuu.style.display = 'none';
 }

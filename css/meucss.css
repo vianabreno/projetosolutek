@@ -704,26 +704,27 @@ html,body{
     }
 
     #div-menu{
+        display: none;
         width: 170px;
-        height: 210px;
+        height: 250px;
         position: absolute;
         z-index: 1;
-        display: inline-block;
         background-color:rgba(255, 255, 255, 0.747);
         font-family: var(--font01);
         font-size: 1.1em;
-        margin-top: 11%;
-        margin-left: -40%;
+        margin-top: -7.4%;
+        margin-left: 58%;
         border-radius: 5%;
         box-shadow: rgba(0, 0, 0, 0.082) 1px 1px 1px 1px;
     }
 
     #menuu{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         display: inline-block;
         margin-left: 35%;
-        background-color: #400904;
+        margin-top: 2%;
+        position: absolute;
     }
 
     .a-menu-resolu{
@@ -737,6 +738,10 @@ html,body{
         margin-top: 3%;
         text-align: right;
         text-shadow: rgba(0, 0, 0, 0.247) 1px 1px 1px;
+    }
+
+    #p-menu1{
+        margin-top: 30%;
     }
 
     #img-menu{
