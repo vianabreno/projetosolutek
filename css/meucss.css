@@ -44,6 +44,7 @@ html,body{
         width: 98%;
         margin-top: 5px;
         padding-bottom: 5px;
+        background-color: #f2a73d;
     }
 
     #resolution1{
@@ -103,7 +104,7 @@ html,body{
     main > section#banners{
         background-color: black;
         margin: 0 auto;
-        width: 98%;
+        width: 100%;
         height: 440px;
         overflow: hidden;
     }
