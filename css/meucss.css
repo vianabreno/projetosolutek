@@ -44,7 +44,6 @@ html,body{
         width: 98%;
         margin-top: 5px;
         padding-bottom: 5px;
-        background-color: #f2a73d;
     }
 
     #resolution1{
@@ -98,7 +97,7 @@ html,body{
         margin-left: 2%;
         margin-right: 40%;
         width: 100px;
-        height: 37px;
+        height: 32px;
     }
 
     main > section#banners{
@@ -134,12 +133,12 @@ html,body{
     }
     
     #radio2:checked ~ .first{
-        margin-left: -103.5%;
+        margin-left: -101.5%;
         transition: 2s;
     }
     
     #radio3:checked ~ .first{
-        margin-left: -204%;
+        margin-left: -200%;
         transition: 2s;
     }
 
@@ -151,7 +150,7 @@ html,body{
         margin-left: 15px;
         margin-top: 20px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txcertificadoideal{
@@ -162,7 +161,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txtconhecacertificado{
@@ -174,7 +173,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     #card-his0{
@@ -196,6 +195,148 @@ html,body{
 }
 
 @media (max-width: 1231px){
+
+    header#cabeca01{
+        width: 100%;
+        margin: auto;
+        height: 20px;
+        padding-top: 5px;
+        padding-bottom: 38px;
+        box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.199);
+        background-color:#d9d9d93f;
+    }
+
+    main > header#cabeca02{
+        margin: auto;
+        width: 98%;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #resolution1{
+        display: none;
+    }
+
+    #menu-down1{
+        display: none;
+    }
+
+    #menu-down0{
+        display: none;
+    }
+
+    header .txtcabeca{
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: var(--font01);
+        color: var(--cor3);
+        padding-left: 30px;
+    }
+
+    .txtcabeca:hover{
+        font-weight: bolder;
+    }
+
+    #solutek{
+        color: var(--cor5);
+        font-weight: bolder;
+    }
+
+    #solutek:hover{
+        color: black;
+    }
+
+    #tekss:hover{
+        color: green;
+        font-weight: bolder;
+    }
+
+    #teks:hover{
+        color: var(--cor2);
+        font-weight: bolder;
+    }
+
+    #log{
+        margin-left: 2%;
+        margin-right: 35%;
+        width: 100px;
+        height: 37px;
+    }
+
+}
+
+@media (max-width: 1134px){
+
+    header#cabeca01{
+        width: 100%;
+        margin: auto;
+        height: 20px;
+        padding-top: 5px;
+        padding-bottom: 38px;
+        box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.199);
+        background-color:#d9d9d93f;
+    }
+
+    main > header#cabeca02{
+        margin: auto;
+        width: 98%;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #resolution1{
+        display: none;
+    }
+
+    #menu-down1{
+        display: none;
+    }
+
+    #menu-down0{
+        display: none;
+    }
+
+    header .txtcabeca{
+        font-size: 0.8em;
+        text-decoration: none;
+        font-family: var(--font01);
+        color: var(--cor3);
+        padding-left: 30px;
+    }
+
+    .txtcabeca:hover{
+        font-weight: bolder;
+    }
+
+    #solutek{
+        color: var(--cor5);
+        font-weight: bolder;
+    }
+
+    #solutek:hover{
+        color: black;
+    }
+
+    #tekss:hover{
+        color: green;
+        font-weight: bolder;
+    }
+
+    #teks:hover{
+        color: var(--cor2);
+        font-weight: bolder;
+    }
+
+    #log{
+        margin-left: 2%;
+        margin-right: 30%;
+        width: 100px;
+        height: 37px;
+    }
+
+}
+
+@media (max-width: 1046px){
 
     header#cabeca01{
         width: 100%;
@@ -338,7 +479,7 @@ html,body{
     main > section#banners{
         background-color: black;
         margin: 0 auto;
-        width: 98%;
+        width: 100%;
         height: 390px;
         overflow: hidden;
     }
@@ -373,7 +514,7 @@ html,body{
     }
     
     #radio3:checked ~ .first{
-        margin-left: -203%;
+        margin-left: -200%;
         transition: 2s;
     }
 
@@ -385,7 +526,7 @@ html,body{
         margin-left: 15px;
         margin-top: 20px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txcertificadoideal{
@@ -396,7 +537,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txtconhecacertificado{
@@ -408,7 +549,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
 }
@@ -553,7 +694,7 @@ html,body{
     main > section#banners{
         background-color: black;
         margin: 0 auto;
-        width: 98%;
+        width: 100%;
         height: 300px;
         overflow: hidden;
     }
@@ -588,7 +729,7 @@ html,body{
     }
     
     #radio3:checked ~ .first{
-        margin-left: -203%;
+        margin-left: -200%;
         transition: 2s;
     }
 
@@ -600,7 +741,7 @@ html,body{
         margin-left: 15px;
         margin-top: 20px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txcertificadoideal{
@@ -611,7 +752,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txtconhecacertificado{
@@ -623,7 +764,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
 
@@ -772,7 +913,7 @@ html,body{
     main > section#banners{
         background-color: black;
         margin: 0 auto;
-        width: 98%;
+        width: 100%;
         height: 240px;
         overflow: hidden;
     }
@@ -807,7 +948,7 @@ html,body{
     }
     
     #radio3:checked ~ .first{
-        margin-left: -203%;
+        margin-left: -200%;
         transition: 2s;
     }
 
@@ -819,7 +960,7 @@ html,body{
         margin-left: 15px;
         margin-top: 20px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txcertificadoideal{
@@ -830,7 +971,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     main > section > h1#txtconhecacertificado{
@@ -842,7 +983,7 @@ html,body{
         margin-left: 15px;
         margin-top: 50px;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+        /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     }
 
     #card-his0{
@@ -872,7 +1013,7 @@ html,body{
 main > header > nav#navcabeca02{
     margin: auto;
     font-family: var(--font01);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+    /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);*/
     font-size: 1.2em;
     font-weight:bolder;
 }
@@ -899,8 +1040,8 @@ main section#compras{
     width: 140px;
     height: 40px;
     border: solid rgba(0, 0, 0, 0.096) 2.5px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);
-    border-radius: 6px;
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);*/
+    border-radius: 10%;
     
 }
 
