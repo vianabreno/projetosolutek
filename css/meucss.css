@@ -26,7 +26,6 @@ html,body{
     overflow-x: hidden;
 }
 
-
 @media (min-width: 200px){
 
     header#cabeca01{
@@ -166,7 +165,7 @@ html,body{
 
     main > section > h1#txtconhecacertificado{
         font-family: var(--font01);
-        max-width: 98%;
+        max-width: 90%;
         font-size: 2em;
         text-align: left;
         color: var(--cor5);
@@ -1031,8 +1030,19 @@ main > header > nav#navcabeca02{
 main section#compras{
     margin: auto;
     text-align: center;
-    max-width: 98%;
+    max-width: 90%;
     min-height: 400px;
+}
+
+#img-tam{
+    width: 50%;
+    margin: auto;
+    
+}
+
+#img-tamm{
+    width: 60%;
+    margin: auto;
 }
 
 .iconcompre{
@@ -1041,7 +1051,7 @@ main section#compras{
     height: 40px;
     border: solid rgba(0, 0, 0, 0.096) 2.5px;
     /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.342);*/
-    border-radius: 10%;
+    border-radius: 15px 15px ;
     
 }
 
@@ -1064,7 +1074,7 @@ main section#compras{
 }
 
 .iconcompre:hover{
-    background-color: var(--cor7);
+    background-color: var(--cor2);
     border: var(--cor2);
     transition: 0.5s;
     transform: translate(-5px, -5px);
@@ -1075,7 +1085,7 @@ main section#compras{
 main > section#idealcertificado{
     margin: auto;
     text-align: center;
-    width: 98%;
+    width: 90%;
 }
 
 .card-title{
@@ -1125,7 +1135,7 @@ main > section > div#ecom{
 }
 
 #ideal{
-    width: 98%;
+    width: 90%;
     margin: auto;
     margin-bottom: 5%;
 }
@@ -1149,7 +1159,7 @@ main > section > div#ecom{
 }
 
 #historia{
-    width: 98%;
+    width: 90%;
     margin: auto;
     margin-bottom: 15px;
 }
