@@ -1008,7 +1008,6 @@ html,body{
 
 }
 
-
 main > header > nav#navcabeca02{
     margin: auto;
     font-family: var(--font01);
@@ -1088,6 +1087,10 @@ main > section#idealcertificado{
     width: 90%;
 }
 
+#card-ideal{
+    border: 0%;
+}
+
 .card-title{
     font-size: 100%;
     font-family: var(--font01);
@@ -1103,6 +1106,7 @@ main > section#idealcertificado{
 .col:hover{
     border: solid white 4px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 main > section > div#pj{
@@ -1156,14 +1160,35 @@ main > section > div#ecom{
 }
 
 #tex-ideall{
-    font-family: var(--font01);
+    font-family: var(--font02);
     line-height: 2em;
 }
 
 #historia{
+    border: solid rgba(0, 0, 0, 0.301) 1px;
     width: 90%;
     margin: auto;
     margin-bottom: 15px;
+}
+
+#card-his0{
+    margin: auto;
+    border: white;
+}
+
+#card-his1{
+    margin: auto;
+    border: white;
+}
+
+#card-his2{
+    margin: auto;
+    border: white ;
+}
+
+#img-hist{
+    width: 90%;
+    margin: auto;
 }
 
 
