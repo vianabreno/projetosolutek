@@ -1035,7 +1035,7 @@ main section#compras{
 }
 
 #img-tam{
-    width: 50%;
+    width: 60%;
     margin: auto;
     
 }
@@ -1089,11 +1089,13 @@ main > section#idealcertificado{
 }
 
 .card-title{
+    font-size: 100%;
     font-family: var(--font01);
     color: var(--cor4);
 }
 
 .card-text{
+    font-size: 100%;
     font-family: var(--font02);
     font-weight: lighter;
 }
@@ -1154,7 +1156,7 @@ main > section > div#ecom{
 }
 
 #tex-ideall{
-    font-family: var(--font02);
+    font-family: var(--font01);
     line-height: 2em;
 }
 
